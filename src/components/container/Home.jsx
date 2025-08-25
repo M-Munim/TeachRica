@@ -1,5 +1,6 @@
-import React from "react";
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+
+// import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
 import home from "../../assets/home.png";
 import pair1last from "../../assets/pair1last.png";
 import pair1mid from "../../assets/pair1mid.png";
@@ -24,7 +25,7 @@ const Home = () => {
           backgroundAttachment: "fixed",
         }}
       >
-        
+
         <div className="flex w-10/12 m-auto ">
           <div className="flex flex-col items-center justify-center gap-4 w-2/12">
             <div
@@ -114,7 +115,7 @@ const Home = () => {
                 offset={-50}
                 className="font-boldtransition-all duration-300 cursor-pointer"
               >
-                
+
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"
@@ -281,7 +282,7 @@ const Home = () => {
                 <div>
                   {/* <img src={cardImage} alt="" /> */}
                 </div>
-                
+
 
                 <div className="flex gap-1 items-center justify-center">
                   <FaStar className="text-bluePrimary" />

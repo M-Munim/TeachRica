@@ -1,9 +1,8 @@
-import React from "react";
 import serviceOne from "../../assets/service1.png";
 import serviceTwo from "../../assets/service2.png";
 import serviceThree from "../../assets/service3.png";
 
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom"
 
 const Services = () => {
   return (
@@ -88,7 +87,7 @@ const Services = () => {
       </div>
       <Link
         to={'/TeachRica/services'}
-      
+
         className="text-sm py-3 px-7 text-white bg-blueSecondary rounded-3xl font-semibold cursor-pointer mt-6"
       >
         Explore More Service

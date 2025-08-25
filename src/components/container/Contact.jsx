@@ -1,4 +1,4 @@
-import React from 'react'
+
 import "./contact.css"
 import contactPhone from "../../assets/contactPhone.png"
 

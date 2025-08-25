@@ -9,17 +9,17 @@ import ServiceModal from './Pages/ServiceModal';
 
 function App() {
   return (
-    <>   
-<Router>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path='TeachRica/about' element={<AboutPage />} />
-        <Route path='TeachRica/services' element={<ServicesPage />} />
-        <Route path='TeachRica/testimonials' element={<TestimonialsPage />} />
-        <Route path='TeachRica/contactus' element={<ContactUsPage />} />
-        <Route path='TeachRica/service-modal' element={<ServiceModal />} />
-      </Routes>  
-    </Router>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path='TeachRica/about' element={<AboutPage />} />
+          <Route path='TeachRica/services' element={<ServicesPage />} />
+          <Route path='TeachRica/testimonials' element={<TestimonialsPage />} />
+          <Route path='TeachRica/contactus' element={<ContactUsPage />} />
+          <Route path='TeachRica/service-modal' element={<ServiceModal />} />
+        </Routes>
+      </Router>
     </>
   )
 }

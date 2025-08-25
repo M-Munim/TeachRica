@@ -1,4 +1,4 @@
-import React from "react";
+
 import tutor from "../../assets/tutorOne.png";
 import rectangle8 from "../../assets/Rectangle8.png";
 import "./testimonial.css";

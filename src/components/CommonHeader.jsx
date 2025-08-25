@@ -1,5 +1,4 @@
-import React from "react";
-import home from "../assets/home.png";
+
 import pair1last from "../assets/pair1last.png";
 import pair1mid from "../assets/pair1mid.png";
 import pair1top from "../assets/pair1top.png";
@@ -25,7 +24,7 @@ const CommonHeader = ({ data }) => {
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g clip-path="url(#clip0_1101_50)">
+          <g clipPath="url(#clip0_1101_50)">
             <path
               d="M32.6111 135.247C32.374 135.559 32.2682 135.953 32.3167 136.342C32.3653 136.731 32.5643 137.084 32.8701 137.323C34.115 138.288 35.3546 139.19 36.6777 140.07C36.9992 140.271 37.3859 140.337 37.7562 140.254C38.1266 140.171 38.4518 139.947 38.6635 139.627C38.8752 139.308 38.9567 138.919 38.891 138.542C38.8253 138.165 38.6175 137.829 38.3112 137.606C37.0455 136.754 35.857 135.887 34.6663 134.962C34.3582 134.725 33.9688 134.621 33.5834 134.675C33.1981 134.728 32.8484 134.934 32.6111 135.247Z"
               fill="white"
