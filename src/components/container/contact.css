@@ -1,0 +1,30 @@
+.contact {
+    height: 700px;
+    width: 100%;
+    flex-shrink: 0;
+    background-image: url('../../assets/contactBg.png'), url('../../assets/contactCont.png');
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+}
+
+
+/* button, */
+input {
+    width: 566px;
+}
+
+
+@media (max-width: 768px) {
+
+    /* button, */
+    input {
+        width: 355px;
+    }
+}
+
+@media (max-width: 1060px) {
+    .phoneSet {
+        display: none;
+    }
+}

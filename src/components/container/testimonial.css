@@ -1,0 +1,11 @@
+.tutor img{
+    width: 272px;
+    top: -59px;
+}
+
+
+@media (max-width: 920px) {
+    .tutor img {
+        display: none;
+    }
+}
